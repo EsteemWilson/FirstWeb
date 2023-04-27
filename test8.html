@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Welcome to my Website!!!</h1>
+<p style="color: rgb(246, 241, 241); background-color:rgb(19, 156, 152);">There is work to eat, there is effort to have a future. The kind that don't work but want to eat, eat shit.</p>
+
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "https://dbk.vn/uploads/ckfinder/images/tranh-anh/anh-che-33.jpg"
+  } else {
+    pic = "https://anhdep123.com/wp-content/uploads/2021/02/anh-che-chui-cuoi-lan.jpg"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img id="myImage" src="https://dbk.vn/uploads/ckfinder/images/tranh-anh/anh-che-2.jpg">
+
+<p>
+<button type="button" onclick="light(1)">Đéo like!</button>
+<button type="button" onclick="light(0)">Gift for you 1000 like!</button>
+</p>
+
+</body>
+</html>
